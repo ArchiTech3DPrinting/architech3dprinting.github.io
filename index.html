@@ -31,32 +31,9 @@
         <section class="section">
             <h1>Welcome to ArchiTech 3D Printing</h1>
             <p>Precision, Quality, and Innovation - Bring Your Designs to Life with Our Advanced 3D Printing Services.</p>
-            <button class="quote-btn" onclick="showForm()">Get a Quote</button>
+            <button class="quote-btn" onclick="redirectToGoogleForm()">Get a Quote</button>
         </section>
         
-        <div class="form-container" id="quoteFormContainer">
-            <h2>Request a Quote</h2>
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSe8B3s_xEgsEAHGT2zfENClpAPzPaTpqtbTSuYlERa1RRw4JA/formResponse" method="post" target="_blank">
-                <p>Upload your 3D model file (STL, OBJ, ZIP).</p>
-                <label for="file">Upload File:</label>
-                <input type="file" id="file" required>
-                
-                <label for="material">Select Material:</label>
-                <select id="material">
-                    <option value="PLA">PLA</option>
-                    <option value="ABS">ABS</option>
-                    <option value="PETG">PETG</option>
-                </select>
-                
-                <label for="color">Select Color:</label>
-                <input type="text" id="color" placeholder="Enter preferred color">
-                
-                <label for="details">Additional Details:</label>
-                <textarea id="details" placeholder="Enter any special instructions"></textarea>
-                
-                <button type="submit">Submit</button>
-            </form>
-        </div>
         
         <section class="services">
             <h2>Our Services</h2>
